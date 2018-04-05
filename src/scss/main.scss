@@ -32,3 +32,16 @@ body {
 
 
 /* 2. Content ================================= */
+
+form {
+	padding: 20px;
+	.suggestions {
+		margin: 5px 0;
+		font-size: 0.75em;
+		a {
+			display: inline-block;
+			margin-right: 5px;
+			color: #777;
+		}
+	}
+}

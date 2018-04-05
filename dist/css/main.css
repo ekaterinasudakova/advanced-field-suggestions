@@ -78,5 +78,19 @@ body {
 }
 
 /* 2. Content ================================= */
+form {
+	padding: 20px;
+}
+
+form .suggestions {
+	margin: 5px 0;
+	font-size: 0.75em;
+}
+
+form .suggestions a {
+	display: inline-block;
+	margin-right: 5px;
+	color: #777;
+}
 
 /*# sourceMappingURL=main.css.map */
