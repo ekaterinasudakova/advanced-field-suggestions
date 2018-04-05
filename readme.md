@@ -13,4 +13,5 @@ Style it nicely.
 Make this into your own plugin. If I were doing this, I'd make it so that a developer could have the form there in the html, and just call some JS to apply an array of suggestions to a field. 
 
 Something like this:
-`suggestify('#suggestions', ["Alabama", "Alaska", ...]); // make the #suggestions field suggest states in the array`
+
+    suggestify('#suggestions', ["Alabama", "Alaska", ...]); // make the #suggestions field suggest states in the array
