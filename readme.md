@@ -14,4 +14,5 @@ Make this into your own plugin. If I were doing this, I'd make it so that a deve
 
 Something like this:
 
-    suggestify('#suggestions', ["Alabama", "Alaska", ...]); // make the #suggestions field suggest states in the array
+    // make the #suggestions field suggest states in the array
+    suggestify('#suggestions', ["Alabama", "Alaska", ...]);
