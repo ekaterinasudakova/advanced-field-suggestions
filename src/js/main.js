@@ -60,6 +60,16 @@ const states = [
 	"Wisconsin",
 	"Wyoming"
 ]
+//this is as far as I got by 1:30 but I started looking into creating a regex
+//to match up the term with the state
+//which is what I plan on working on this week and seeing if it works
+let $state = document.querySelector(`[name="state"]`);
+let $suggestions = document.querySelector(`.suggestions`);
+$suggestions.innerHTML = states;
 
-let $state = document.querySelector(`[name="state"]`)
-let $suggestions = document.querySelector(`.suggestions`)
+$state.addEventListener('keyup', function(e){
+	let term = e.target.value.toLowerCase();
+	let autofillState = states.filter(function(state){
+	if(state.includes(" term")) return true;
+	console.log(term);
+})
